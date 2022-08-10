@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+.navbar{
+    text-shadow: 1px 1px 5px #000;
+}
+.navbar span{
+    color: rgb(27, 203, 203);
+}
+.btn-info{
+    background-color: rgb(27, 203, 203);
+
+}
+.jumbotron{
+    background-image: url(./imgAutos/auditt.jpg);
+    height: 600px;
+    width: 100%vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+}
+p{
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: #000;
+    padding: 5px 5px;
+}
+/* nosotros */
+h2{
+    background-color: #343A40;
+    color: #fff;
+    margin: 0px;
+    padding: 20px 10px;
+    text-align: center;
+    text-shadow: 1px 1px 5px rgb(0, 0, 0);
+}
+.nleft{
+    background-image: url(./imgAutos/amarok.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+.nright h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #343A40;
+}
+.nright p{
+    font-family: 'Poppins';
+    text-align: center;
+}
+.autos{
+    background-color: #343A40;
+    color: #fff;
+    text-align: center;
+}
+.peugeot{
+    background-position: center;
+}
